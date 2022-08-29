@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="half">
+
+
+      <div class="text">
+        <p>Kindly rate the site in order to help improve it further.<br><br>
+          <strong>Kindly follow the <a target="blank" href="{{byId.link}}">live link</a> to go to the site and explore
+            if you are yet
+            to.</strong><br><br>
+        </p>
+        <li> You can rate it based on the design, The User Experience and the Content.</li><br>
+        <li> You can also leave a comment on which parts of the site you liked and which ones you feel could use some
+          improvement, and i will work on getting them to perfect quality as well as take your comments into
+          consideration
+          on future projects.</li><br>
+        <li> If you wish you can leave your email address and I can let you know when your suggestions have been
+          implemented
+          either on the current or a future project.</li>
+
+        <br>
+        <br>
+        Thank you in advance for your feedback
+      </div>
+      <div class="image-container">
+        <img class="image" src="{{cloud}}{{byId.image}}" alt="image">
+      </div>
+      <div class="buttons">
+        <a target="blank" href="{{byId.link}}">
+          <h5 class="btn">Live site</h5>
+        </a>
+        <a target="blank" href="{{byId.github}}">
+          <h5 class="btn">Github</h5>
+        </a>
+        <a href="#projects">
+          <h5 class="btn">All Projects</h5>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="half2">
+      <div class="form-title">
+        <h3>Kindly rate the site</h3>
+      </div>
+      <div class="block-items" *ngFor="let project of project">
+
+        <h1>{{project.name}}
+
+        </h1>
+
+      </div>
+
+      <form novalidate [formGroup]="myForm" #testForm="ngForm" (ngSubmit)="getText(testForm.value)">
+        <div class=" form-group">
+
+          <label>Name</label>
+          <input type="text" class="form-control" formControlName="name">
+        </div>
+        <div style="color: red;" *ngIf="myForm.controls.name.invalid && myForm.controls.name.dirty">Kindly input
+          your Name </div>
+
+        <label>Email</label>
+        <input type="email" placeholder="(Optional)" class="form-control" formControlName="email">
+        <label>Comment</label>
+        <textarea type="text" class="form-control" rows="10" formControlName="comment"></textarea>
+        <div style="color: red;" *ngIf="myForm.controls.comment.invalid && myForm.controls.comment.dirty">Kindly input
+          a comment</div>
+
+        <label>Design Rating</label><br>
+        <ngb-rating [max]="5" type="number" class="review" formControlName="design_rating">
+          <ng-template let-fill="fill" let-index="index">
+            <span class="star" [class.filled]="fill === 100" [class.bad]="index < 5">&#9733;</span>
+          </ng-template>
+        </ngb-rating><br>
+        <label>User Experience Rating</label><br>
+        <ngb-rating [max]="5" named="user" type="number" class="review" formControlName="user_rating">
+          <ng-template let-fill="fill" let-index="index">
+            <span class="star" [class.filled]="fill === 100" [class.bad]="index < 5">&#9733;</span>
+          </ng-template>
+        </ngb-rating><br>
+        <label>Content Rating</label><br>
+        <ngb-rating [max]="5" type="number" class="review" formControlName="content_rating">
+          <ng-template let-fill="fill" let-index="index">
+            <span class="star" [class.filled]="fill === 100" [class.bad]="index < 5">&#9733;</span>
+          </ng-template>
+        </ngb-rating>
+
+
+        <!-- <pre>{{myForm.value | json}}</pre> -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>
