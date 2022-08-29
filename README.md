@@ -1,4 +1,4 @@
-# Isaac Wangombe Mariga's Portfolio
+# Isaac Wangombe's Portfolio
 
 ## Description
 
