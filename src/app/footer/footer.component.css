@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+body {
+  background: linear-gradient(0deg, #fff, 50%, #deeefe);
+  font-family: "Rubik", sans-serif;
+  background: #455a64;
+  height: 100 !important;
+}
+
+.container-fluid {
+  overflow: hidden;
+  background: #262626;
+  color: #627482 !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+small {
+  font-size: calc(
+    12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.bold-text {
+  color: #989c9e !important;
+}
+
+.mt-55 {
+  margin-top: calc(
+    50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+h3 {
+  font-size: min(2.4rem, 6vw);
+  font-family: "Playfair Display", serif;
+}
+
+.social {
+  font-size: 21px !important;
+}
+
+.rights {
+  font-size: calc(
+    10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.list-unstyled {
+  display: grid;
+  grid-template-rows: repeat(4 1fr);
+}
+li {
+  display: table-cell;
+  position: relative;
+}
+a {
+  color: #627482;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-size: min(0.9rem, 2vw);
+  margin-left: 1vw;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #627482;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}

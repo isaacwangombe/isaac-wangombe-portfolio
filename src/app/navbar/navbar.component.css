@@ -68,6 +68,11 @@ a:hover:after {
 nav.nav--hidden {
   transform: translateY(-100%);
 }
+@media screen and (min-width: 992px) {
+  .colapse-clickaway {
+    visibility: hidden;
+  }
+}
 
 .colapse-clickaway {
   height: 100vh;

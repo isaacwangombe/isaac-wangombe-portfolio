@@ -18,6 +18,7 @@ import { CommentsComponent } from './comments/comments.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxHideOnScrollModule } from 'ngx-hide-on-scroll';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
     ProjectsComponent,
     TestingComponent,
     CommentsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
