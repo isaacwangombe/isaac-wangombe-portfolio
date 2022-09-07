@@ -28,7 +28,7 @@ h3 {}
 h4 {} */
 
 h5 {
-  font-size: min(1.5rem, 2vw);
+  font-size: min(2.5rem, 2vw);
   font-family: "Playfair Display", serif;
 }
 h6 {
