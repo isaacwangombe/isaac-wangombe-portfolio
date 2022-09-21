@@ -319,13 +319,13 @@ CommentsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](33, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](34, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "div", 10)(36, "a", 7)(37, "h5", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "div", 10)(36, "a", 7)(37, "p", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](38, "Live site");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](39, "a", 7)(40, "h5", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](39, "a", 7)(40, "p", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, "Github");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "a", 12)(43, "h5", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "a", 12)(43, "p", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, "All Projects");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "div", 13)(46, "div", 14)(47, "h3");
@@ -534,13 +534,13 @@ MainComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "strong");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24, "\u2015 Jacques Ellul");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "div", 11)(26, "a", 12)(27, "h5", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "div", 11)(26, "a", 12)(27, "p", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](28, "About Me");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "a", 14)(30, "h5", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "a", 14)(30, "p", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](31, "Projects");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "a", 15)(33, "h5", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "a", 15)(33, "p", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](34, "Resume");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](35, "br");
@@ -562,10 +562,10 @@ MainComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "p", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](52, "A developer with a deep passion for computing and software, solid foundational skills in finance and training as a full stack developer in HTML, CSS, Javascript and Python, with additional strengths and experience in design, sales and project management. I am looking to use technology to develop innovative solutions that solve real world problems");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "div", 11)(54, "a", 14)(55, "h5", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "div", 11)(54, "a", 14)(55, "p", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](56, "Projects");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](57, "a", 15)(58, "h5", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](57, "a", 15)(58, "p", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](59, "Resume");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](60, "br");
@@ -616,7 +616,7 @@ class NavbarComponent {
     ngOnInit() { }
 }
 NavbarComponent.ɵfac = function NavbarComponent_Factory(t) { return new (t || NavbarComponent)(); };
-NavbarComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 37, vars: 2, consts: [["lang", "en"], ["charset", "UTF-8"], ["http-equiv", "X-UA-Compatible", "content", "IE=edge"], ["name", "viewport", "content", "width=device-width, initial-scale=1.0"], ["ngxHideOnScroll", "", 1, "navbar", "navbar-expand-lg", 3, "classNameWhenHidden"], [1, "container-fluid"], ["href", ""], ["src", "assets/images/logo.png", "alt", ""], ["type", "button", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler", 3, "click"], ["src", "assets/images/menu.png", "alt", "", 1, "toggle-img"], ["id", "navbarSupportedContent", "mdbCollapse", "", 1, "collapse", "navbar-collapse"], ["basicNavbar", "mdbCollapse"], [1, "navbar-nav", "d-flex", "w-auto", "me-auto", "mb-2", "mb-lg-0"], [1, "nav-item"], ["aria-current", "page", "href", "#", 1, "nav-link", "active"], ["aria-current", "page", "href", "#about", 1, "nav-link"], ["href", "#projects", "tabindex", "-1", 1, "nav-link"], ["target", "blank", "tabindex", "-1", 1, "nav-link", 3, "routerLink"], ["target", "blank", "href", "https://www.linkedin.com/in/isaacwangombe/", "tabindex", "-1", 1, "nav-link"], ["target", "blank", "href", "https://github.com/isaacmariga", "tabindex", "-1", 1, "nav-link"], [1, "colapse-clickaway", 3, "click"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
+NavbarComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 37, vars: 2, consts: [["lang", "en"], ["charset", "UTF-8"], ["http-equiv", "X-UA-Compatible", "content", "IE=edge"], ["name", "viewport", "content", "width=device-width, initial-scale=1.0"], ["ngxHideOnScroll", "", 1, "navbar", "navbar-expand-lg", 3, "classNameWhenHidden"], [1, "container-fluid"], ["href", ""], ["src", "assets/images/logo.png", "alt", ""], ["type", "button", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler", 3, "click"], ["src", "assets/images/menu.png", "alt", "", 1, "toggle-img"], ["id", "navbarSupportedContent", "mdbCollapse", "", 1, "collapse", "navbar-collapse"], ["basicNavbar", "mdbCollapse"], [1, "navbar-nav", "d-flex", "w-auto", "me-auto", "mb-2", "mb-lg-0"], [1, "nav-item"], ["aria-current", "page", "href", "#", 1, "nav-link", "active"], ["aria-current", "page", "href", "#about", 1, "nav-link"], ["href", "#projects", "tabindex", "-1", 1, "nav-link"], ["target", "blank", "tabindex", "-1", 1, "nav-link", 3, "routerLink"], ["target", "blank", "href", "https://www.linkedin.com/in/isaacwangombe/", "tabindex", "-1", 1, "nav-link"], ["target", "blank", "href", "https://github.com/isaacwangombe", "tabindex", "-1", 1, "nav-link"], [1, "colapse-clickaway", 3, "click"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
         const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "html", 0)(1, "head");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "meta", 1)(3, "meta", 2)(4, "meta", 3);
@@ -1612,25 +1612,25 @@ TestingComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0_
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Core skills");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "p", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Presentation design and enhancement; marketing; sales; relationship management; client relations; team collaboration; creativity; planning and organisational skills; communication; flexibility; entrepreneurial skills");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Reporting to the Head of Traditional Trade, I managed various department projects, developed new systems, and managed the sales team. I acted as a liaison between P&G and the company's product distributor towards successful achievement of sales targets of the Traditional trade department.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "h6", 18)(58, "i");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Key impacts");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "u", 19)(61, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Developed a company sales pitch, organised cold calls and led pitch meetings, contributing to a 300% increase in the company's client base;");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "I developed and maintained the company's first Traditional Trade display verification system. The system was launched and deployed across 5 regions nationally, with a 91% reach of the company's stores;");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Showcased clients brands to various audiences through organising television and radio appearances, talks, and events, which increased reach of some clients by up to 30%;");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Collected data, analyzed it and developed progress reports and dashboards for the monitoring of projects which ensured upper management had accurate understanding of the progress of all projects;");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Maintained regular dialogue with partners, developed partnership proposals, and led partnership meetings, securing brand partnerships for clients;");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Deployed, trained and led the sales team in executing a loyalty program that that increased products' store presence to 96%;");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Assisted senior management in managing client portfolios, including proposals and documentation;");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Coordinating the launch event of the company's largest new product across 5 regions with audiences of 650 staff and key customers;");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Created a partnership database of more than 500 industry contacts by developing and maintaining contacts and working relationships with individuals and organisations relevant to the company's operations .");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Working as a liaison between the company and our distributor company, ensuring smooth relationships and collaboration.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 10)(72, "div", 11)(73, "h6", 12)(74, "strong");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Jan 2019 - Dec 2019");
